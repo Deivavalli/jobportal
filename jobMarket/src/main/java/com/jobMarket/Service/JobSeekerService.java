@@ -28,8 +28,7 @@ public class JobSeekerService {
 		jobSeek.setPassingYear(dto.passingYear);
 		jobSeek.setResumeURL(dto.resumeURL);
 
-		JobSeeker saved = jobSeekerRepository.save(jobSeek);
-
+		JobSeeker Saved = jobSeekerRepository.save(jobSeek);
 		return dto;
 
 	}
